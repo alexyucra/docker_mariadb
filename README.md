@@ -49,7 +49,23 @@ MariaDB [(none)]> CREATE DATABASE databasename;
 docker exec -i mysql-container mysql -uuser -ppassword name_db < data.sql
 ```
 
+- show databases
+
+```sql
+MariaDB [(none)]> SHOW DATABASES;
+
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+```
 
 ## Bibliografia
 
 - [mariadb docs](https://mariadb.com/resources/blog/get-started-with-mariadb-using-docker-in-3-steps/)
+
+- [comandos mysql](https://www.w3schools.com/sql/sql_create_db.asp)
