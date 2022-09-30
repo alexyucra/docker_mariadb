@@ -15,6 +15,14 @@ docker run --name mariadb -d \
   mariadb:latest
 ```
 
+- view docker process
+
+```shell
+docker ps | grep mariadb
+
+0921c87dfb7b   mariadb:latest  "docker-entrypoint.s…"  0.0.0.0:3307->3306/tcp, :::3307->3306/tcp   mariadb
+```
+
 - Access into mariadb in docker
 
 ```shell
